@@ -14,4 +14,21 @@
         script.async = false; 
         document.head.appendChild(script);
       });
+
+        function noScroll() {
+            window.scrollTo(0, 0);
+        }
+
+        window.onload = function() {
+          var f = document.createElement('iframe');
+          f.classList.add("lazyload");
+          f.src = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1038303736&amp;color=%23111111&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"; 
+          f.dataset.aid = "AUDIO_IFRAME_RENDERED";
+          f.width = '80%'; 
+          f.height = 280;
+          f.addEventListener('scroll', noScroll);
+          f.title = "Clickable audio widget";
+          f.style = "text-align: right";
+          document.getElementById("soundcloud_container").appendChild(f);
+        };
       </script>
