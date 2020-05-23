@@ -18,7 +18,7 @@
             loadJS("{{ "/js/ls.respimg.min.js" | prepend: site.baseurl }}");
         }
     </script>
-    <script src="{{ "/js/lazysizes.min.js" | prepend: site.baseurl }}"></script>
+    {% include js/lazysizes.min.html %}
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     {% include css/purified_bootstrap.min.html %}
