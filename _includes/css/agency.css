@@ -63,7 +63,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #f3f3f3;
 }
 
 .bg-darkest-gray {
@@ -341,11 +341,8 @@ section h2.section-heading {
 
 section h3.section-subheading {
     margin-bottom: 75px;
-    text-transform: none;
-    font-family: {{ site.data.template.font.secondary }};
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 @media(min-width:768px) {
