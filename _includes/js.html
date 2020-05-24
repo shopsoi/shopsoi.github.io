@@ -6,7 +6,9 @@
          "{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}",
          "{{ "/js/jquery.easing.min.js" | prepend: site.baseurl }}",
          "{{ "/js/classie.js" | prepend: site.baseurl }}",
-         "{{ "/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}",
+          {% if page.name == "index.html" %}
+            "{{ "/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}",
+          {% endif %}
          "{{ "/js/agency.js" | prepend: site.baseurl }}"
       ].forEach(function(src) {
         var script = document.createElement('script');
@@ -19,16 +21,23 @@
             window.scrollTo(0, 0);
         }
 
-        window.onload = function() {
-          var f = document.createElement('iframe');
-          f.classList.add("lazyload");
-          f.src = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1038303736&amp;color=%23111111&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"; 
-          f.dataset.aid = "AUDIO_IFRAME_RENDERED";
-          f.width = '80%'; 
-          f.height = 280;
-          f.addEventListener('scroll', noScroll);
-          f.title = "Clickable audio widget";
-          f.style = "text-align: right";
-          document.getElementById("soundcloud_container").appendChild(f);
-        };
+        {% if page.name == "index.html" %}
+          window.onload = function() {
+            var el = document.getElementById("soundcloud_container")
+            
+            if(typeof(element) != 'undefined' && element != null){
+              var f = document.createElement('iframe');
+              f.classList.add("lazyload");
+              f.src = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1038303736&amp;color=%23111111&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"; 
+              f.dataset.aid = "AUDIO_IFRAME_RENDERED";
+              f.width = '80%'; 
+              f.height = 280;
+              f.addEventListener('scroll', noScroll);
+              f.title = "Clickable audio widget";
+              f.style = "text-align: right";
+
+              el.appendChild(f);
+            }
+          };
+        {% endif %}
       </script>

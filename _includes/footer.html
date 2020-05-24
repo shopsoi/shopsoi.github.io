@@ -1,16 +1,21 @@
   <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4" style="text-align: left;">
+                  <span>
+                    <a href="{{ site.url | append: site.baseurl }}/disclaimer">Disclaimer</a><br>
+                    <a href="{{ site.url | append: site.baseurl }}/terms">Terms and Conditions</a><br>
+                    <a href="{{ site.url | append: site.baseurl }}/privacy_policy">Privacy policy</a><br>
+                    <a href="{{ site.url | append: site.baseurl }}/cookie_policy">Cookie policy</a></span>
                 </div>
                 <div class="col-md-4" style="padding-top: 10px">
-                        <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+                      <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" style="text-align: right;">
                         <a href="https://aotos.org.uk/directory/member/tania_nazare/">   
-                          <img src="img/logos/aotos.jpg" alt="" class="lazyload" style="height: 60px; width: 60px; margin: auto"></a> &nbsp;&nbsp;&nbsp;
+                          <img src="{{ site.baseurl }}/img/logos/aotos.jpg" alt="" class="lazyload" style="height: 60px; width: 60px; margin: auto"></a> &nbsp;&nbsp;&nbsp;
                         <a href="https://www.nats.org/cgi/page.cgi/_membership.html/698127-Tania-Nazare">
-                          <img src="img/logos/nats.jpg" alt="" class="lazyload" style="height: 60px; width: 60px; margin: auto"></a>
+                          <img src="{{ site.baseurl }}/img/logos/nats.jpg" alt="" class="lazyload" style="height: 60px; width: 60px; margin: auto"></a>
                 </div>
             </div>
         </div>

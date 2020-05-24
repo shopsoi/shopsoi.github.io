@@ -4,18 +4,16 @@
   {% include head.html %}
 
 
-    <body id="page-top" class="index">
+  <body id="page-top" class="index">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTXRKXP"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
 
     {% include header.html %}
-    {% include about.html %}
-    {% include services.html %}
-    {% include teaching.html %}
-    {% include performance.html %}
-    {% include awards.html %}
-    {% include education.html %}
-    {% include contact.html %}
+    {{ content }}
     {% include footer.html %}
     {% include js.html %}
 
-    </body>
+  </body>
 </html>
