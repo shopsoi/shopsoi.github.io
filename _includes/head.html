@@ -27,14 +27,13 @@
     {% include {{ site.baseurl }}/js/lazysizes.min.html %}
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    {% if page.name == "blog.html" %}
-        {% include {{ site.baseurl }}/css/purified_bootstrap_portfolio.min.html %}
+    {% if page.name == "blog.html" or page.name == "blogpost.html" %}
+    {% include {{ site.baseurl }}/css/purified_bootstrap_portfolio.min.html %}
         {% include {{ site.baseurl }}/css/agency-portfolio.html %}
     {% else %}
         {% include {{ site.baseurl }}/css/purified_bootstrap.min.html %}
     {% endif %}
     {% include {{ site.baseurl }}/css/agency.html %}
-    <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
 
     <!-- Custom Fonts -->
     {% include {{ site.baseurl }}/css/purified_fontawesome.all.min.html %}
@@ -51,4 +50,29 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+
+      
+  {% if page.name == "blogpost.html" %}
+    <script type="text/javascript" async>
+        function getQueryVariable(variable) {
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            for (var i=0;i<vars.length;i++) {
+                    var pair = vars[i].split("=");
+                    if(pair[0] == variable){return pair[1];}
+            }
+            return(false);
+        }
+
+        window.onload = function() {
+            var v = getQueryVariable("post")
+            if (v != false) {
+                var el = document.getElementById("portfolioModalLink" + v);
+                if(typeof(el) != 'undefined' && el != null) {
+                    el.click();
+                }
+            }
+        }
+    </script> 
+  {% endif %}
 </head>

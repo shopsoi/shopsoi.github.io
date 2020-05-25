@@ -1,0 +1,21 @@
+---
+layout: secondary_page
+---
+<section id="portfolio" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Posts tagged "{{ page.tag | replace: "_", " " }}"</h2>
+            </div>
+        </div>
+        {% for post in site.tags[page.tag] %}
+          <div class="row">
+            <p class="text-muted">
+              <a href="{{ site.baseurl }}/blogpost/?post={{ post.modal-id }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
+                {{ post.description }}
+                <br>
+            </p>
+          </div>
+        {% endfor %}
+    </div>
+</section>

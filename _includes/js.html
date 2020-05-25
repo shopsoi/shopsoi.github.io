@@ -2,8 +2,8 @@
 
     <script type="text/javascript" async>
       [
-         "{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}",
-          {% if page.name == "blog.html" %}
+          "{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}",
+          {% if page.name == "blog.html" or page.name == "blogpost.html" %}
             "{{ "/js/bootstrap-portfolio.min.js" | prepend: site.baseurl }}",
           {% else %}
             "{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}",

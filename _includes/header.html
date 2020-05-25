@@ -23,25 +23,28 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="{{ site.url | append: site.baseurl }}#about">About</a>
+                        <a class="page-scroll" href="{% if page.name != 'index.html' %}{{ site.url | append: site.baseurl }}{% endif %}#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="{{ site.url | append: site.baseurl }}#services">Services</a>
+                        <a class="page-scroll" href="{% if page.name != 'index.html' %}{{ site.url | append: site.baseurl }}{% endif %}#services">Services</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="{{ site.url | append: site.baseurl }}#teaching">Teaching</a>
+                        <a class="page-scroll" href="{% if page.name != 'index.html' %}{{ site.url | append: site.baseurl }}{% endif %}#teaching">Teaching</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="{{ site.url | append: site.baseurl }}#performance">Performance</a>
+                        <a class="page-scroll" href="{% if page.name != 'index.html' %}{{ site.url | append: site.baseurl }}{% endif %}#performance">Performance</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="{{ site.url | append: site.baseurl }}#awards">Awards</a>
+                        <a class="page-scroll" href="{% if page.name != 'index.html' %}{{ site.url | append: site.baseurl }}{% endif %}#awards">Awards</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="{{ site.url | append: site.baseurl }}#education">Education</a>
+                        <a class="page-scroll" href="{% if page.name != 'index.html' %}{{ site.url | append: site.baseurl }}{% endif %}#education">Education</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="{{ site.url | append: site.baseurl }}#contact">Contacts</a>
+                        <a class="page-scroll" href="{% if page.name != 'index.html' %}{{ site.url | append: site.baseurl }}{% endif %}#contact">Contacts</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="{% if page.name != 'index.html' %}{{ site.url | append: site.baseurl }}{% endif %}/blog/">Blog</a>
                     </li>
                 </ul>
             </div>
