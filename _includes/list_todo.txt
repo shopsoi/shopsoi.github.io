@@ -1,0 +1,221 @@
+<select name="parent" id="id_parent" data-child-id="id_child1" class="dependent-selects__parent">
+  <option value="">--------</option>
+  <option value="one" data-child-options="1|#2|#3|#4|#5|#6|#7">Soprano</option>
+  <option value="two" data-child-options="8|#9|#10">Mezzo/Alto</option>
+  <option value="three" data-child-options="11|#12">Alto</option>
+  <option value="four" data-child-options="13|#13a|#13b">Countertenor</option>
+  <option value="five" data-child-options="14|#15|#16|#17|#18">Tenor</option>
+  <option value="six" data-child-options="19|#20|#21|#22|#23|#24|#25">Baritone</option>
+  <option value="seven" data-child-options="26|#27|#28|#29|#30|#31">Bass</option>
+</select>
+
+<select name="child1" id="id_child1" data-child-id="id_child2" class="dependent-selects__child1">
+  <option value="">--------</option>
+
+  <!-- Parent: Soprano -->
+  <option value="1" data-child-options="32a|#32b|#32c">Coloratura</option>
+  <option value="2" data-child-options="33a|#33b|#33c">Dramatic Coloratura</option>
+  <option value="3" data-child-options="34a|#34b|#34c">Soubette</option>
+  <option value="4" data-child-options="35|#35b|#35c">Lyric</option>
+  <option value="5" data-child-options="36a|#36b|#36c">Lyric Dramatic</option>
+  <option value="6" data-child-options="37a|#37b|#37c">Full Dramatic</option>
+  <option value="7" data-child-options="38a|#38b|#38c">High Dramatic</option>
+
+ <!-- Parent: Mezzo/Alto -->
+  <option value="8" data-child-options="39a|#39b|#39c">Coloratura</option>
+  <option value="9" data-child-options="40a|#40b|#40c">Lyric</option>
+  <option value="10" data-child-options="41a|#41b|#41c">Dramatic</option>
+
+  <!-- Parent: Alto -->
+  <option value="11" data-child-options="42a|#42b|#42c">Dramatic</option>
+  <option value="12" data-child-options="43a|#43b|#43c">Low Contralto</option>
+
+  <!-- Parent: Countertenor -->
+  <option value="13">Piece 1</option>
+  <option value="13a">Piece 2</option>
+  <option value="13b">Piece 3</option>
+
+
+  <!-- Parent: Tenor -->
+  <option value="14" data-child-options="44a|#44b|#44c">Comic</option>
+  <option value="15" data-child-options="45a|#45b|#45c">Character</option>
+  <option value="16" data-child-options="46a|#46b|#46c">Lyric</option>
+  <option value="17" data-child-options="47a|#47b|#47c">Lyric Dramatic</option>
+  <option value="18" data-child-options="48a|#48b|#48c">Heroic</option>
+
+  <!-- Parent: Baritone -->
+  <option value="19" data-child-options="49a|#49b|#49c">Light</option>
+  <option value="20" data-child-options="50a|#50b|#50c">Lyric</option>
+  <option value="21" data-child-options="51a|#51b|#51c">Cavalier</option>
+  <option value="22" data-child-options="52a|#52b|#52c">Verdi</option>
+  <option value="23" data-child-options="53a|#53b|#53c">Dramatic</option>
+  <option value="24" data-child-options="54a|#54b|#54c">Low Lyric</option>
+  <option value="25" data-child-options="55a|#55b|#55c">Low Dramatic</option>
+
+  <!-- Parent: Bass -->
+  <option value="26" data-child-options="56a|#56b|#56c">High Lyric</option>
+  <option value="27" data-child-options="57a|#57b|#57c">High Dramatic</option>
+  <option value="28" data-child-options="58a|#58b|#58c">Young</option>
+  <option value="29" data-child-options="59a|#59b|#59c">Comic</option>
+  <option value="30" data-child-options="60a|#60b|#60c">Dramatic Comic</option>
+  <option value="31" data-child-options="61a|#61b|#61c">Low</option>
+</select>
+
+<select name="child2" id="id_child2" data-child-id="id_child2" class="dependent-selects__child1">
+  <option value="">--------</option>
+
+  <!-- Parent: Soprano Coloratura -->
+  <option value="32a">Piece 1</option>
+  <option value="32b">Piece 2</option>
+  <option value="32c">Piece 3</option>
+
+  <!-- Parent: Soprano Dramatic Coloratura -->
+  <option value="33a">Piece 1</option>
+  <option value="33b">Piece 2</option>
+  <option value="33c">Piece 3</option>
+
+  <!-- Parent: Soprano Soubrette -->
+  <option value="34a">Piece 1</option>
+  <option value="34b">Piece 2</option>
+  <option value="34c">Piece 3</option>
+
+  <!-- Parent: Soprano Lyric -->
+  <option value="35a">Piece 1</option>
+  <option value="35b">Piece 2</option>
+  <option value="35c">Piece 3</option>
+
+  
+  <!-- Parent: Soprano Lyric Dramatic -->
+  <option value="36a">Piece 1</option>
+  <option value="36b">Piece 2</option>
+  <option value="36c">Piece 3</option>
+
+  <!-- Parent: Soprano Full Dramatic -->
+  <option value="37a">Piece 1</option>
+  <option value="37b">Piece 2</option>
+  <option value="37c">Piece 3</option>
+
+  <!-- Parent: Soprano High Dramatic -->
+  <option value="38a">Piece 1</option>
+  <option value="38b">Piece 2</option>
+  <option value="38c">Piece 3</option>
+
+  <!-- Parent: Mezzo/Alto Coloratura -->
+  <option value="39a">Piece 1</option>
+  <option value="39b">Piece 2</option>
+  <option value="39c">Piece 3</option>
+
+  
+  <!-- Parent: Mezzo/Alto Lyric -->
+  <option value="40a">Piece 1</option>
+  <option value="40b">Piece 2</option>
+  <option value="40c">Piece 3</option>
+
+  <!-- Parent: Mezzo/Alto Dramatic -->
+  <option value="41a">Piece 1</option>
+  <option value="41b">Piece 2</option>
+  <option value="41c">Piece 3</option>
+
+  <!-- Parent: Alto Dramatic -->
+  <option value="42a">Piece 1</option>
+  <option value="42b">Piece 2</option>
+  <option value="42c">Piece 3</option>
+
+  <!-- Parent: Low Contralto -->
+  <option value="43a">Piece 1</option>
+  <option value="43b">Piece 2</option>
+  <option value="43c">Piece 3</option>
+
+  <!-- Parent: Tenor Comic-->
+  <option value="44a">Piece 1</option>
+  <option value="44b">Piece 2</option>
+  <option value="44c">Piece 3</option>
+
+  <!-- Parent: Tenor Character-->
+  <option value="45a">Piece 1</option>
+  <option value="45b">Piece 2</option>
+  <option value="45c">Piece 3</option>
+  
+  <!-- Parent: Tenor Lyric-->
+  <option value="46a">Piece 1</option>
+  <option value="46b">Piece 2</option>
+  <option value="46c">Piece 3</option>
+
+  <!-- Parent: Tenor Lyric Dramatic-->
+  <option value="47a">Piece 1</option>
+  <option value="47b">Piece 2</option>
+  <option value="47c">Piece 3</option>
+
+  <!-- Parent: Tenor Heroic-->
+  <option value="48a">Piece 1</option>
+  <option value="48b">Piece 2</option>
+  <option value="48c">Piece 3</option>
+
+  <!-- Parent: Baritone Light-->
+  <option value="49a">Piece 1</option>
+  <option value="49b">Piece 2</option>
+  <option value="49c">Piece 3</option>
+
+  <!-- Parent: Baritone Lyric-->
+  <option value="50a">Piece 1</option>
+  <option value="50b">Piece 2</option>
+  <option value="50c">Piece 3</option>
+
+  <!-- Parent: Baritone Cavalier-->
+  <option value="51a">Piece 1</option>
+  <option value="51b">Piece 2</option>
+  <option value="51c">Piece 3</option>
+
+  <!-- Parent: Baritone Verdi-->
+  <option value="52a">Piece 1</option>
+  <option value="52b">Piece 2</option>
+  <option value="52c">Piece 3</option>
+
+  <!-- Parent: Baritone Dramatic-->
+  <option value="53a">Piece 1</option>
+  <option value="53b">Piece 2</option>
+  <option value="53c">Piece 3</option>
+
+  <!-- Parent: Baritone Low Lyric-->
+  <option value="54a">Piece 1</option>
+  <option value="54b">Piece 2</option>
+  <option value="54c">Piece 3</option>
+
+  <!-- Parent: Baritone Low Dramatic-->
+  <option value="55a">Piece 1</option>
+  <option value="55b">Piece 2</option>
+  <option value="55c">Piece 3</option>
+
+  <!-- Parent: Bass High Lyric-->
+  <option value="56a">Piece 1</option>
+  <option value="56b">Piece 2</option>
+  <option value="56c">Piece 3</option>
+
+  <!-- Parent: Bass High Dramatic-->
+  <option value="57a">Piece 1</option>
+  <option value="57b">Piece 2</option>
+  <option value="57c">Piece 3</option>
+
+  <!-- Parent: Bass Young-->
+  <option value="58a">Piece 1</option>
+  <option value="58b">Piece 2</option>
+  <option value="58c">Piece 3</option>
+
+  <!-- Parent: Bass Comic-->
+  <option value="59a">Piece 1</option>
+  <option value="59b">Piece 2</option>
+  <option value="59c">Piece 3</option>
+
+  <!-- Parent: Bass Dramatic Comic-->
+  <option value="60a">Piece 1</option>
+  <option value="60b">Piece 2</option>
+  <option value="60c">Piece 3</option>
+
+  <!-- Parent: Bass Low-->
+  <option value="61a">Piece 1</option>
+  <option value="61b">Piece 2</option>
+  <option value="61c">Piece 3</option>
+
+</select>
+
+<script async src="dependent-selects.js"></script>
