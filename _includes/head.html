@@ -1,28 +1,4 @@
 <head>
-    <!-- Cookie consent banner -->
-    <!-- <script>
-    (function () {
-        var s = document.createElement('script');
-        s.type = 'text/javascript';
-        s.async = true;
-        s.src = 'https://app.termly.io/embed.min.js';
-        s.id = '581ef82b-eeef-4c2d-ba7f-c52b3155dc6d';
-        s.setAttribute("data-name", "termly-embed-banner");
-        var x = document.getElementsByTagName('script')[0];
-        x.parentNode.insertBefore(s, x);
-    })();
-    </script> -->
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z0626B7914"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-Z0626B7914');
-    </script> -->
-    <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -51,7 +27,12 @@
     {% include {{ site.baseurl }}/js/lazysizes.min.html %}
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    {% include {{ site.baseurl }}/css/purified_bootstrap.min.html %}
+    {% if page.name == "blog.html" %}
+        {% include {{ site.baseurl }}/css/purified_bootstrap_portfolio.min.html %}
+        {% include {{ site.baseurl }}/css/agency-portfolio.html %}
+    {% else %}
+        {% include {{ site.baseurl }}/css/purified_bootstrap.min.html %}
+    {% endif %}
     {% include {{ site.baseurl }}/css/agency.html %}
     <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
 
