@@ -13,6 +13,9 @@
           {% if page.name == "index.html" %}
             "{{ "/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}",
           {% endif %}
+          {% if page.name == "blog.html" or page.name == "blogpost.html" %}
+            "{{ "/js/dependent-selects.js" | prepend: site.baseurl }}",
+          {% endif %}
          "{{ "/js/agency.js" | prepend: site.baseurl }}"
       ].forEach(function(src) {
         var script = document.createElement('script');
