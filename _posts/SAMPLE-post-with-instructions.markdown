@@ -22,4 +22,10 @@ post_content: >
     8 Everything in post_content has to be indented (have at least 2 spaces in the beginning of the line)
     9 All images in the post should be lazy-loaded. For that, the class of img should have "lazyload" in it. E.g.
       <img class="img-circle img-responsive lazyload" ..> or <img class="lazyload" ..>
+    10 To post the blogpost, open gitbash and 
+      1. git status
+      2. git add folder (e.g. _includes) and files
+      3. git status to check if all was added
+      4. git commit -m "name of changes"
+      5. git push origin master
 ---
