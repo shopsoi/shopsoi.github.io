@@ -84,7 +84,7 @@ post_content: >
   <br>
 
   <select name="parent" id="id_parent" data-child-id="id_child1" class="dependent-selects__parent">
-    <option id="">--------</option>
+    <option id="">- Select voice type -</option>
     <option id="one" data-child-options="1|#2|#3|#4|#5|#6|#7">Soprano</option>
     <option id="two" data-child-options="8|#9|#10">Mezzo/Alto</option>
     <option id="three" data-child-options="11|#12">Alto</option>
@@ -94,8 +94,15 @@ post_content: >
     <option id="seven" data-child-options="26|#27|#28|#29|#30|#31">Bass</option>
   </select>
 
-  <select name="child1" id="id_child1" data-child-id="id_child2" class="dependent-selects__child dependent-selects__parent">
-    <option id="">--------</option>
+  <script type="text/javascript">
+    function openOnlyLinks($i) {
+      if ($i.startsWith("https")) {
+        window.open($i);
+      }
+    }
+  </script>
+  <select name="child1" id="id_child1" data-child-id="id_child2" class="dependent-selects__child dependent-selects__parent" data-text-if-parent-empty="Select FACH" onchange="openOnlyLinks(this.value);">
+    <option id="">- Select FACH -</option>
 
     <!-- Parent: Soprano -->
     <option id="1" data-child-options="32a|#32b|#32c">Coloratura</option>
@@ -116,9 +123,9 @@ post_content: >
     <option id="12" data-child-options="43a|#43b|#43c">Low Contralto</option>
 
     <!-- Parent: Countertenor -->
-    <option id="13" data-child-options="" value="https://youtu.be/87UE2GC5db0?t=42">Mozart - Papagena, Papageno!</option>
-    <option id="13a" data-child-options="" value="https://youtu.be/87UE2GC5db0?t=42">Mozart - Papagena, Papageno!</option>
-    <option id="13b" data-child-options="" value="https://youtu.be/87UE2GC5db0?t=42">Mozart - Papagena, Papageno!</option>
+    <option id="13" data-child-options="" value="https://www.youtube.com/watch?v=a8svkjBxNyA">Glass - Hymn to the Sun</option>
+    <option id="13a" data-child-options="" value="https://www.youtube.com/watch?v=N7XH-58eB8c">Händel - Ombra mai fu</option>
+    <option id="13b" data-child-options="" value="https://www.youtube.com/watch?v=OZkHevOLhPU">Händel - Lascia ch'io pianga</option>
 
 
     <!-- Parent: Tenor -->
@@ -146,8 +153,8 @@ post_content: >
     <option id="31" data-child-options="61a|#61b|#61c">Low</option>
   </select>
 
-  <select name="child2" id="id_child2" class="dependent-selects__child" onchange="window.open(this.value);">
-    <option id="">--------</option>
+  <select name="child2" id="id_child2" class="dependent-selects__child" onchange="window.open(this.value);" data-text-if-parent-empty="Select piece">
+    <option id="">- Select piece -</option>
 
     <!-- Parent: Soprano Coloratura -->
     <option id="32a" value="https://www.youtube.com/watch?v=KfmtZMKTH6w">Strauss - Zerbinetta's aria</option>
@@ -187,7 +194,7 @@ post_content: >
 
     <!-- Parent: Mezzo/Alto Coloratura -->
     <option id="39a" value="https://www.youtube.com/watch?v=HpgAvhO5dOw">Rossini - Oh! patria!...Di tanti palpiti</option>
-    <option id="39b" value="https://www.youtube.com/watch?v=jUw1hoheALY">Handel - Scherza infida</option>
+    <option id="39b" value="https://www.youtube.com/watch?v=jUw1hoheALY">Händel - Scherza infida</option>
     <option id="39c" value="https://www.youtube.com/watch?v=mDyXqf0at_w">Rossini - Una voce poco fa</option>
 
     
@@ -202,9 +209,9 @@ post_content: >
     <option id="41c" value="https://www.youtube.com/watch?v=4ZNN0VqaSlE">Verdi - Amneris' aria</option>
 
     <!-- Parent: Alto Dramatic -->
-    <option id="42a" value="https://www.youtube.com/watch?v=Yjbo0d8HtUY">Handel - È gelosia</option>
+    <option id="42a" value="https://www.youtube.com/watch?v=Yjbo0d8HtUY">Händel - È gelosia</option>
     <option id="42b" value="https://www.youtube.com/watch?v=bBZX4taI0IU">Gilbert & Sullivan - Alone and Yet Alive</option>
-    <option id="42c" value="https://www.youtube.com/watch?v=hSAuHrg8XnM">Handel - Ah, mio cor, schernito sen</option>
+    <option id="42c" value="https://www.youtube.com/watch?v=hSAuHrg8XnM">Händel - Ah, mio cor, schernito sen</option>
 
     <!-- Parent: Low Contralto -->
     <option id="43a" value="https://www.youtube.com/watch?v=MJeTEsli7bU">Strauss - Daphne! Wir warten dein</option>
