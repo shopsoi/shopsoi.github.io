@@ -1,5 +1,5 @@
 ---
-title: Finding your voice type
+title: Finding Your Voice Type
 subtitle: An easy guide
 layout: default
 tags: tutorial all_voice_types

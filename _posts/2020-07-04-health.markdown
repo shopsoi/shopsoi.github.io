@@ -1,0 +1,45 @@
+---
+title: The One-Stop Vocal Health
+subtitle: No frills edition
+layout: default
+tags: tutorial all_voice_types health
+modal-id: 2
+date: 2020-07-04
+img: 04JULY_larger.jpg
+thumbnail: 04JULY_smaller.jpg
+alt: image-alt
+description: There are so many websites with amazingly long lists of do’s and don’ts for singers...it’s easy to get overwhelmed with so much information! This blog post was written with that in mind. Its main purpose is to be a <i>one-stop summary</i> of the most important things a singer needs to know/do for good and long lasting vocal health. I provide a few links if you’re interested.
+post_content: >
+  Photo credit: <a href="https://unsplash.com/photos/hIgeoQjS_iE"> Online Marketing. </a><br><br>
+  <br>
+  <br>
+  <b>IN THIS POST:</b>
+  <ul><li>A simple list of things you should do to keep your voice healthy.</li>
+  </ul><br>
+
+  <b>#1 Let’s get one thing straight out of the way: warm-ups</b><br>
+  It’s easy to not warm up, and it’s easy to lose your voice if you don’t warm up. I’m sure you already heard this a million times—<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4587821/">prep</a> your voice properly before singing!<br>
+  <br>
+  <b>#2 Another thing: water</b><br>
+  It’s no use...you know you’re not drinking enough water. If you feel dryness in your throat after warming up, that’s a clear sign that your vocal fold <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2925668/#:~:text=Systemic%20hydration%20refers%20to%20fluid,to%20facilitate%20optimal%20voice%20production.">mucosa</a> is not in top shape. Drink more water.<br>
+  <br>
+  <b>#3 Sleep</b><br>
+  If you have poor sleep you’re prone to <a href="https://pubmed.ncbi.nlm.nih.gov/21402470/">vocal fatigue</a>, which can come in the form of vocal fry or temporarily losing your voice. The more you ignore these symptoms the more prone you are to develop more serious vocal issues. Prepare ahead of concerts/recordings/rehearsals and go to be earlier than usual.<br>
+  <br>
+  <b>#4 Keep a singing journal</b><br>
+  Use apps like <a href="https://singersavvyapp.com/">SingerSavvyApp</a> to keep track of your current vocal health status. After a while of keeping a record of the things you feel and what vocal activities you had, you will be able to understand what makes your voice tired and even predict and prevent vocal fatigue.<br>
+  <br>
+  <b>#5 Become aware of the things you eat</b><br>
+  You are an athlete— a singing one. Your <a href="https://wp.stolaf.edu/musician-health/nutrition-eating-and-singing/">diet</a> affects your overall health and that includes your voice. Pay special attention to your diet if you have acid reflux which is very bad for your vocal folds.<br>
+  <br>
+  <b>#6 Take silent breaks</b><br>
+  Okay, last point! If you are singing, teaching, or talking for long periods of time you’ll need breaks! Let your voice rest by being <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6371399/">silent</a> for a period of time (for as long as can) to give your vocal folds a chance to heal.<br>
+  <br>
+  <br>
+  <i>I am not affiliated to any of the supplied links—they are purely informative just like this blog post. Take everything I say with a grain of salt: this blog post will not substitute a face-to-face consultation. I encourage you to seek help from a practitioner if you feel like your vocal health is degrading with no apparent reason.</i><br><br>
+  
+  Let me know if you have any questions or comments by emailing me at: tania.nazare@gmail.com <br><br>
+  Hope you enjoyed this post and keep practising!<br>
+  Stay healthy!
+  
+---

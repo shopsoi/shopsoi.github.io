@@ -14,7 +14,7 @@ post_content: >
   Instructions on adding a new post
     1 the filename should be yyyy-mm-dd-anything.markdown
     2 for each new tag you add, go to the <root>/tag/ folder and copy one of the existing htmls; name the file as your tag. Update the "tag" field in the new file.
-    3 if you want your tag to have multiple words in it, separate them with underscores ("_"). If you use whitespace instead of the underscore, Jekyll will treat words as separate tags.
+    3 if you want your tag to have multiple words in it, separate them with underscores ("_"). If you use whitespace instead of the underscore, Jekyll will treat words with spaces as separate tags.
     4 you need 2 versions of the same image, one for thumbnail (width 400, height anything (289), small file size), and a better one for the posts (600x450)
     5 images live under /img/blog/
     6 "description" is a short paragraph displayed on the post page between image and content, and on the tag page under the post title.
