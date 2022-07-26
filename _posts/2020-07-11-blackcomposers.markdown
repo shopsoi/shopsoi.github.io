@@ -64,7 +64,7 @@ post_content: >
 
   I've filtered the search to only include classical-type vocal works. But I need to mention all the existent jazz repertoire by composers such as Duke Ellignton! That's a whole different list right there!<br><br>
 
-  Thanks for all the people that contacted me to add more names! <br>Did I miss anyone? Let me know by emailing me at: tania.nazare@gmail.com <br><br>
+  Thanks for all the people that contacted me to add more names! <br>Did I miss anyone? Let me know by emailing me at: tannazaremusic@gmail.com <br><br>
 
   <a href="https://www.youtube.com/watch?v=vneow3rQxdY" target="_blank">Here's a little gem</a>. <i>It's all music, man.</i><br><br>
   

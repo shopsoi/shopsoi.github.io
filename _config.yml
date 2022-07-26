@@ -2,17 +2,17 @@ url: https://tanianazare.com
 baseurl: 
 
 # Site settings
-title: Tania Nazare | Music Theory
-email: tania.nazare@gmail.com
+title: Tan Nazare | Music Theory
+email: tannazaremusic@gmail.com
 description: Music theory graduate student at McGill University. Research in non-Western pop music. Singer, tutor. BMus Hons (Edin), MA Music Theory (McGill).
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: instagram
-    url: https://www.instagram.com/nazaretania/
-  # - title: linkedin
-  #   url: https://www.linkedin.com/in/tanianazare/
+    url: https://www.instagram.com/tannazare/
+  - title: twitter
+    url: https://twitter.com/tannazare
   - title: wordpress
     url: http://washingdishes.home.blog/
 
